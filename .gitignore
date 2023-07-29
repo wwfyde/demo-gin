@@ -31,3 +31,8 @@ out/
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+
+### Default build
+# when run go build . in macos ingore the binary file
+/demo-gin
