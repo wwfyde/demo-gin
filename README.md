@@ -4,6 +4,17 @@
 
 This is a pure API service with Gin.
 
+## References
+
+- swaggo
+  - gin-swagger
+- zap
+- cobra
+- viper
+- gorm
+- mongo
+- redis
+
 ## Project Layout
 
 
