@@ -6,6 +6,8 @@ import (
 	"github.com/gin-gonic/gin"
 	swaggerFiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
+	"github.com/wwfyde/demo-gin/api"
+	v12 "github.com/wwfyde/demo-gin/api/v1"
 	_ "github.com/wwfyde/demo-gin/docs"
 	"go.uber.org/zap"
 	"log"
@@ -17,21 +19,15 @@ var (
 	port = flag.Int("port", 8000, "Server listening port")
 )
 
-func setRouter() *gin.Engine {
-	r := gin.Default()
-	r.GET("/ping", func(c *gin.Context) {
-		c.String(http.StatusOK, "pong")
-	})
-	v1 := r.Group("v1")
-	v1.GET("/")
-
-	return r
-}
-
 func init() {
 	// TODO init
 }
 
+// @title Demo Gin API
+// @version 3.1.0
+// @host localhost:8000
+// @BasePath /api/v1
+// @externalDocs.url          https://swagger.io/resources/open-api/
 func main() {
 	// 强制日志颜色化
 	gin.ForceConsoleColor()
@@ -40,8 +36,18 @@ func main() {
 
 	// Parse Command line flags
 	flag.Parse()
-	//docs.SwaggerInfo.BasePath = "api/v1"
-	r := setRouter()
+	//docs.SwaggerInfo.BasePath = "/api/v1"
+	r := gin.Default()
+
+	v1 := r.Group("/api/v1")
+	{
+		hello := v1.Group("/hello")
+		{
+			hello.GET("", v12.HelloWorld)
+		}
+	}
+	v1.GET("/ping", api.Ping)
+	v1.GET("", func(c *gin.Context) { c.String(http.StatusOK, "api/v1") })
 	r.GET("/docs/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
 
 	r.Use()

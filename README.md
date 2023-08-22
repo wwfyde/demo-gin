@@ -38,6 +38,13 @@ This is a pure API service with Gin.
 └─ README.md      # Project Overview and Instructions
 ```
 
+## Quickstart
+
+### swaggo
+
+Add notations for main function and each handle-func, then use `swag init` to generating docs. Please Notice that register swagger router to main router
+
+
 ## Developing Plan
 
 See GitHub project
