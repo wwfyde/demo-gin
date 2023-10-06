@@ -7,10 +7,10 @@ import (
 
 // Ping print ping
 //
-// @Summary ping and pong
-// @Produce json
-// @Success 200
-// @Router /ping [get]
+//	@Summary	ping and pong
+//	@Produce	json
+//	@Success	200
+//	@Router		/ping [get]
 func Ping(c *gin.Context) {
 	c.JSON(http.StatusOK, map[string]any{"msg": "pong"})
 }

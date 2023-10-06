@@ -32,6 +32,22 @@ const docTemplate = `{
                 }
             }
         },
+        "/hello2": {
+            "get": {
+                "consumes": [
+                    "application/json"
+                ],
+                "tags": [
+                    "example"
+                ],
+                "summary": "hello world",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
         "/ping": {
             "get": {
                 "produces": [
@@ -54,7 +70,7 @@ const docTemplate = `{
 // SwaggerInfo holds exported Swagger Info so clients can modify it
 var SwaggerInfo = &swag.Spec{
 	Version:          "3.1.0",
-	Host:             "localhost:8000",
+	Host:             "localhost:8009",
 	BasePath:         "/api/v1",
 	Schemes:          []string{},
 	Title:            "Demo Gin API",

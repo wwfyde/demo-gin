@@ -1,13 +1,23 @@
 basePath: /api/v1
 externalDocs:
   url: https://swagger.io/resources/open-api/
-host: localhost:8000
+host: localhost:8009
 info:
   contact: {}
   title: Demo Gin API
   version: 3.1.0
 paths:
   /hello:
+    get:
+      consumes:
+      - application/json
+      responses:
+        "200":
+          description: OK
+      summary: hello world
+      tags:
+      - example
+  /hello2:
     get:
       consumes:
       - application/json

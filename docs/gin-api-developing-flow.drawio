@@ -1,0 +1,25 @@
+<mxfile host="Electron" modified="2023-09-10T14:54:50.762Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="wXgs9wbY-GfiGyzrpH7n" version="21.6.8" type="device">
+  <diagram name="Page-1" id="E9RzRhoe6JccPD0h5jmi">
+    <mxGraphModel dx="970" dy="695" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1dsYqLaC0z90dJmVNOmz-1" value="route" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="107" y="95" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1dsYqLaC0z90dJmVNOmz-2" value="handler" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="341" y="95" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1dsYqLaC0z90dJmVNOmz-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="346" y="255" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1dsYqLaC0z90dJmVNOmz-28" value="" style="shape=image;aspect=fixed;image=data:image/svg+xml,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCEtLSBHZW5lcmF0ZWQgYnkgUGl4ZWxtYXRvciBQcm8gMy4zLjEzIC0tPgo8c3ZnIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiB2aWV3Qm94PSIwIDAgMjU2IDI1NiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8cGF0aCBpZD0icGF0aDEiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLXdpZHRoPSIyIiBkPSJNIDEgMjU1IEwgMjU1IDI1NSBMIDI1NSAxIEwgMSAxIFoiLz4KICAgIDxwYXRoIGlkPSJwYXRoMiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2Utd2lkdGg9IjIiIGQ9Ik0gMSAyMjQgTCAyNTUgMjI0Ii8+CiAgICA8cGF0aCBpZD0icGF0aDMiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLXdpZHRoPSIyIiBkPSJNIDY0IDEwNCBMIDE5MiAxMDUiLz4KICAgIDxwYXRoIGlkPSJwYXRoNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2Utd2lkdGg9IjIiIGQ9Ik0gNjQgMjAwIEwgMTkyIDIwMCBNIDY0IDE3NiBMIDE5MiAxNzYgTSA2NCAxNTIgTCAxOTIgMTUyIE0gNjQgMTI4IEwgMTkyIDEyOCIvPgo8L3N2Zz4K;" vertex="1" parent="1">
+          <mxGeometry x="601" y="91" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="1dsYqLaC0z90dJmVNOmz-34" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNTQgMTU0IiB3aWR0aD0iMjUwMCIgaGVpZ2h0PSIyNTAwIiBmaWxsPSJub25lIj48Y2lyY2xlIHI9Ijc3IiBmaWxsPSIjMDU5OThiIiBjeT0iNzciIGN4PSI3NyIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik04MS4zNzUgMTguNjY3bC0zOC43NSA3MEg3Ny41bC0zLjg3NSA0Ni42NjYgMzguNzUtNzBINzcuNXoiLz48L3N2Zz4=;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="609" y="221" width="128" height="128" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

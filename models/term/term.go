@@ -1,6 +1,9 @@
-package models
+package term
 
-import "time"
+import (
+	"go.mongodb.org/mongo-driver/mongo"
+	"time"
+)
 
 // Term or Concept or Glossary is a description of some core words of their fields
 //
@@ -18,4 +21,10 @@ type Term struct {
 	StrictDefinition string    `json:"strict-definition"`
 	DateCreated      time.Time `json:"date-created"`
 	DateModified     time.Time `json:"date-modified"`
+}
+
+type 术语 = Term
+
+func (t *Term) InsertById(id int, db *mongo.Database) (bool, error) {
+	return true, nil
 }

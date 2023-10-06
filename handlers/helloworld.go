@@ -1,4 +1,4 @@
-package v1
+package handlers
 
 import (
 	"github.com/gin-gonic/gin"
@@ -11,7 +11,7 @@ import (
 //	@Tags		example
 //	@Accept		json
 //	@Success	200
-//	@Router		/hello2 [get]
+//	@Router		/hello [get]
 func HelloWorld(c *gin.Context) {
 	v := "世界"
 	c.JSON(http.StatusOK, gin.H{"Hello": v, "hello": "world"})

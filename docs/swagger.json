@@ -5,10 +5,26 @@
         "contact": {},
         "version": "3.1.0"
     },
-    "host": "localhost:8000",
+    "host": "localhost:8009",
     "basePath": "/api/v1",
     "paths": {
         "/hello": {
+            "get": {
+                "consumes": [
+                    "application/json"
+                ],
+                "tags": [
+                    "example"
+                ],
+                "summary": "hello world",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/hello2": {
             "get": {
                 "consumes": [
                     "application/json"

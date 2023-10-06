@@ -9,6 +9,7 @@ src/
 .vscode/
 .fleet/
 *.drawio.bkp
+.env
 
 ### Go
 # Go workspace file

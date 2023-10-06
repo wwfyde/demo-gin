@@ -2,6 +2,7 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
+	"log"
 	"net/http"
 )
 
@@ -43,5 +44,5 @@ func main() {
 	}
 
 	// 监听并在 0.0.0.0:8080 上启动服务
-	r.Run(":8080")
+	log.Fatal(r.Run(":8080"))
 }

@@ -1,3 +1,6 @@
+app:
+  mode: release  #  debug, release
+  timeout: 10    # global timeout value for ctx
 redis:
   mode: 0 # default 0 单机
   host: localhost
@@ -9,11 +12,17 @@ database:
     type: 1 # 1: local, 2: remote
     host: localhost #
     port: 27017
-    user: wwfyde
-    password:
+    user: admin
+    password: admin
+    db: demo-gin
+    coll:
+      book: book
+      user: user
+
     uri: mongodb+srv://wwfyde:ee3TLUf2sKWJ7PlR@cluster34891.265gnqu.mongodb.net/?retryWrites=true&w=majority
   mysql:
     host: localhost
     port: 3306
     user: root
     password: wawawa
+apiVersion: api/v1
